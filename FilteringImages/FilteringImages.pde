@@ -6,7 +6,12 @@ void setup() {
 }
 
 void draw(){
+  background(0);
   imageMode(CENTER);
   image(penguin,width/2,height/2);
-  filter(BLUR,2);
+  //filter(BLUR,2);
+  //filter(THRESHOLD);
+  //filter(GRAY);
+  //filter(INVERT);
+  filter(POSTERIZE);
 }
