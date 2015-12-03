@@ -1,5 +1,7 @@
 
+
 PImage dog, galaxy,heart; //declare variables
+
 
 void setup() {
   size(400,267); //set canvas size
@@ -7,6 +9,7 @@ void setup() {
   galaxy = loadImage("galaxy.jpg");
   heart = loadImage("heart.png");
   dog.mask(heart); //heart covers dog
+
   
 }
 
